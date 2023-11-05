@@ -31,7 +31,7 @@ def math_quiz():
     print("Welcome to the Math Quiz Game!")
     print("You will be presented with math problems, and you need to provide the correct answers.")
 
-    for i in range(t_q):
+    for _ in range(t_q):
         n1 = task_1(1, 10); n2 = task_1(1, 5); o = task_2()
 
         PROBLEM, ANSWER = task_3(n1, n2, o)
